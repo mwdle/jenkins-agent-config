@@ -13,9 +13,7 @@ Secret=jenkins_agent_secret,uid=1000,gid=1000,mode=0400
 Volume=/home/jenkins
 
 ReadOnly=true
-ReadOnlyTmpfs=false
-Tmpfs=/tmp
-Tmpfs=/run
+ShmSize=64m
 
 UserNS=auto
 NoNewPrivileges=true
