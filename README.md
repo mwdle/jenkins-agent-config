@@ -1,6 +1,6 @@
 # Jenkins Agent Configuration
 
-A rootless Podman Quadlet deployment for permanent Jenkins agents.
+A rootless Podman Quadlet configuration for permanent Jenkins agents.
 
 The container image is built and published by [jenkins-agent](https://github.com/mwdle/jenkins-agent).
 
@@ -12,4 +12,4 @@ Store the node's secret as a Jenkins Secret text credential with the ID `jenkins
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
