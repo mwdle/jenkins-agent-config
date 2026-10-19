@@ -1,5 +1,5 @@
 [Container]
-Image=git.mwdle.com/lab/jenkins-agent:latest@sha256:983a706b749ec2fb9af0daa98acb3e7c2677d50681c499ad5cec0799885bdac0
+Image=git.mwdle.com/lab/jenkins-agent:latest@sha256:bae9c90c468df5153e9ea381bfc81b57a6cb0eecc167ce22043af9b6b3fd705e
 ContainerName=jenkins-agent
 
 AddHost=jenkins.mwdle.com:host-gateway
