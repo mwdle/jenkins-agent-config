@@ -5,8 +5,9 @@ ContainerName=jenkins-agent
 AddHost=jenkins.mwdle.com:host-gateway
 AddHost=git.mwdle.com:host-gateway
 
+Timezone=local
+
 Environment=REMOTING_OPTS="-url https://jenkins.mwdle.com/ -webSocket -secret @/run/secrets/jenkins_agent_secret -name %H"
-Environment=TZ=America/Denver
 
 Secret=jenkins_agent_secret,uid=1000,gid=1000,mode=0400
 
