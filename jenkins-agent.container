@@ -21,10 +21,9 @@ DropCapability=all
 
 RunInit=true
 
-HealthStartupCmd=grep -aqF agent.jar /proc/[0-9]*/cmdline || exit 1
+HealthCmd=grep -aqF agent.jar /proc/[0-9]*/cmdline || exit 1
 HealthStartupInterval=3s
 HealthStartupTimeout=5s
-HealthCmd=grep -aqF agent.jar /proc/[0-9]*/cmdline || exit 1
 HealthInterval=30s
 HealthTimeout=5s
 HealthOnFailure=kill
